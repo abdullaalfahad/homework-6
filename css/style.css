@@ -1,0 +1,79 @@
+/*Common Start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*Common End*/
+/*Header Start*/
+header{
+	padding: 20px 0;
+}
+.header-container{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+/*Header-Left Start*/
+.header-left{
+	width: 55%;
+	float: left;
+}
+.logo{
+	width: 27%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	margin-bottom: 2px;
+	width: 72%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 550;
+	color: #292640;
+	text-decoration: none;
+	display: block;
+	padding: 0 17px;
+}
+.menu ul li a:hover{
+	color: #FF6162;
+}
+.menu ul li:last-child a{
+	padding-right: 0; 
+}
+/*Header-Right Start*/
+.header-right{
+	width: 20%;
+	float: right;
+}
+.header-right a{
+	display: block;
+}
+.header-right a input{
+	padding: 14px 10px;
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 19px;
+	color: white;
+	background-color: #FF6162;
+	border: none;
+	border-radius: 5px;
+}
+.header-right a input:hover{
+	background-color: #292640;
+}
+/*Header End*/
